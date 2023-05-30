@@ -52,7 +52,7 @@ class student:
     def __init__(self,root) :
         self.root =root
         self.root.geometry('1350x690+1+1')
-        self.root.title("شركة الرحاب للسياحة")
+        self.root.title("null")
         self.root.configure(background="silver")
         self.root.resizable(False,False)
         title= Label(self.root,
